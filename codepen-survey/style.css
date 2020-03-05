@@ -1,0 +1,78 @@
+body{
+background-image:linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+  color:white;
+}
+.container{
+    display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+input,body,select,option,textarea{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.group{
+  display:grid;
+  grid-template-columns:50px 1fr;
+ 
+}
+
+input[type="radio"]{
+  width:1em;
+  height:1em;
+  align-self:center;
+}
+label{
+ display:inline-block;
+  width:100%;
+  margin-top:30px;
+  margin-bottom:15px;
+}
+#title{
+  text-align:center;
+  margin-bottom:-10px;
+}
+#description{
+  text-align:center;
+  font-style:italic;
+}
+#survey-form{
+  width:40%;
+  border-radius:5px;
+  padding:2% 4%;
+  background-color:rgba(0,0,0,0.6);
+
+}
+#email,#name,#number,#suggestions,#submit,#dropdown,#dropdown2{
+  width:100%;
+  border-radius:8px;
+  display:block;
+  padding:0.4rem;
+}
+
+#suggestions{
+  height:100px;
+  width:98%;
+}
+
+
+#submit{
+    display: block;
+    padding: 0.75rem;
+    background: #37af65;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+  margin-top:20px;
+  border-style:none;
+  text-transform:uppercase;
+  font-weight:500;
+  height:50px;
+}
